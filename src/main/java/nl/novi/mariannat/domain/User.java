@@ -46,6 +46,9 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
+    @OneToMany(mappedBy = "user")
+    private Set<Demo> Demos;
+
 
     public User() {
 
@@ -148,6 +151,15 @@ public class User {
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
     }
+
+    public Set<Demo> getDemos() {
+        return Demos;
+    }
+
+    public void setDemos(Set<Demo> demos) {
+        Demos = demos;
+    }
+
 
 
 }
