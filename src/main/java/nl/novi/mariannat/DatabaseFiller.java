@@ -9,6 +9,10 @@ import org.springframework.stereotype.Component;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ Twee gebruikers met één rol toevoegen
+ **/
+
 @Component
 public class DatabaseFiller implements CommandLineRunner {
 
