@@ -26,7 +26,7 @@ public class AuthController {
         return authorizationService.authenticateUser(loginRequest);
     }
 
-    @PostMapping("/register")
+    @PostMapping("/signup")
     public ResponseEntity<MessageResponse> registerUser(@RequestBody SignupRequest signUpRequest) {
         return authorizationService.registerUser(signUpRequest);
     }
