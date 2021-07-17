@@ -2,6 +2,9 @@ package nl.novi.mariannat.payload.response;
 
 import java.util.List;
 
+/**JwtResponse geeft een bearer token terug aan de gebruiker.
+  Door dit de gebruiker kan geauthorizeerd worden. **/
+
 public class JwtResponse {
     private String token;
     private String type = "Bearer";

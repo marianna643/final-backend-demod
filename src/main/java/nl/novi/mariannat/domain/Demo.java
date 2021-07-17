@@ -29,6 +29,9 @@ public class Demo {
     private String titel;
     private String uploadDir;
 
+
+    /**Koppel tabel aanmaken tussen de demo en de users wie dit heeft geupload.**/
+
     @ManyToOne
     @JoinColumn(name = "user_id")
     @JsonIgnore

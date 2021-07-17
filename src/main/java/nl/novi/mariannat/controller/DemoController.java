@@ -28,6 +28,8 @@ public class DemoController {
     @Autowired
     DemoService demoService;
 
+    /**Extra info voor de geuploade demo **/
+
     @PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
     @PostMapping("/uploads")
     public ResponseEntity<DemoResponse> uploadFile(@RequestParam("file") MultipartFile file,

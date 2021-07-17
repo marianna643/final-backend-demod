@@ -15,6 +15,8 @@ import java.util.List;
 @RequestMapping("/api/feedback")
 public class FeedbackTextController {
 
+    /**Eindpoint voor het regelen van de Feedbacks. Hier was ik nog bezig.**/
+
     @Autowired
     FeedbackTextService feedbackTextService;
 
