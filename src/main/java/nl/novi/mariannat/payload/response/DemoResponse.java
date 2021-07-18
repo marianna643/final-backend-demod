@@ -1,6 +1,6 @@
 package nl.novi.mariannat.payload.response;
 
-
+/**Wordt aangeroepen wanneer het betrekking heeft op de demo **/
 
 public class DemoResponse {
 

@@ -20,6 +20,8 @@ import java.util.Set;
 @Table(name = "app_user")
 public class User {
 
+    /**User aanmaken en koppelen met de Role **/
+
     @Id
     @GeneratedValue(
             strategy= GenerationType.AUTO,

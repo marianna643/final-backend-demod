@@ -20,9 +20,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 
 /**
- * Hier gebruiken we de EnableGlobalMethodSecurity(prePostIsEnabled = true) om de @PreAuthorize annotaties te gebruiken
- * op andere plekken in de applicatie.
+ Hier gebruiken we de EnableGlobalMethodSecurity(prePostIsEnabled = true) om de @PreAuthorize annotaties te gebruiken
+ op andere plekken in de applicatie.
  */
+
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(

@@ -15,6 +15,10 @@ import org.springframework.stereotype.Service;
 import javax.xml.bind.DatatypeConverter;
 import java.util.List;
 
+/**
+ Alle methods doorgeven aan de repository en alle relevante informatie uithalen van de database
+ **/
+
 @Service
 public class UserServiceImpl implements UserService {
 

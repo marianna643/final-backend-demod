@@ -22,6 +22,10 @@ import java.security.Principal;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ Geeft aan naar welke map de demo moet worden geupload.
+ **/
+
 @Service
 public class DemoServiceImpl implements DemoService {
 

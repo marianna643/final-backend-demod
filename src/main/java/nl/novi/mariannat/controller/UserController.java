@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
 
+/**Eindponts voor het ophalen van alle users **/
 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController

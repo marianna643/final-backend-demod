@@ -17,6 +17,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/** AuthTokenFilter extracts gebruikersnaam/wachtwoord uit het ontvangen token
+  met behulp van JwtUtils en vervolgens op basis van het uitgepakte
+  gegevens, AuthTokenFilter:
+ * maakt een AuthenticationToken aan
+ * gebruikt het AuthenticationToken als Authentication-object en slaat het op in de SecurityContext
+ voor toekomstig filtergebruik**/
+
 public class AuthTokenFilter extends OncePerRequestFilter {
 
     @Autowired
